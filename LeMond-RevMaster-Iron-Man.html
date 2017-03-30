@@ -1,0 +1,287 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>LeMond RevMaster Iron-Man</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<link rel="stylesheet" href="css/demo1.css" />
+<link rel="stylesheet" href="css/imagezoom.css" />
+<link rel="stylesheet" href="css/es-cus.css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.imagezoom.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.17475.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('$(7(){$(\'#1d\').j();9 a=$(\'#12\').A({B:0,z:3,C:7(c,d,e){c.E().D("8");c.k("8");a.y(d);e.x();9 f=$(\'#16\').g(\'m\');f.K(c.l(\'i\').M(\'G\'),c.l(\'i\').g(\'L\'))},H:7(){$(\'#16\').j({t:\'u/v/3.p\'});$(\'#12 J:F(0)\').k(\'8\')}});$(\'#W\').j({w:\'X\',17:[o,s],t:\'u/v/6.p\',15:[10,-4],r:\'13\'});9 b=$(\'#W\').g(\'m\');$(n).N(7(){h=$(n).U();S(h>R){b.q(o,s)}T{b.q(h*0.4,h*0.4*0.14)}});9 a=$(\'#O\').A({B:1,z:4,C:7(c,d,e){c.E().D("8");c.k("8");a.y(d);e.x();9 f=$(\'#I\').g(\'m\');f.K(c.l(\'i\').M(\'G\'),c.l(\'i\').g(\'L\'))},H:7(){$(\'#I\').j({w:\'X\',17:[o,s],t:\'u/v/2.p\',15:[10,-4],r:\'13\',1a:7(c){c.$Q.1b().19(P)},18:7(c){c.$Q.1f().1e(P)}});$(\'#O J:F(1)\').k(\'8\');$(n).N(7(){9 c=$(\'#I\').g(\'m\');h=$(n).U();S(h>R){c.q(o,s)}T{c.q(h*0.4,h*0.4*0.14)}})}});$(\'#1c\').j({w:\'Y\',r:\'11\'});9 a=$(\'#Z\').A({B:0,z:4,C:7(c,d,e){c.E().D("8");c.k("8");a.y(d);e.x();9 f=$(\'#V\').g(\'m\');f.K(c.l(\'i\').M(\'G\'),c.l(\'i\').g(\'L\'))},H:7(){$(\'#V\').j({w:\'Y\',t:\'u/v/5.p\',r:\'11\'});$(\'#Z J:F(0)\').k(\'8\')}})});',62,78,'|||||||function|active|var|||||||data|winWidth|img|ImageZoom|addClass|find|imagezoom|window|480|jpg|changeZoomSize|zoomViewerClass|300|bigImageSrc|demo_assets|large|type|preventDefault|setCurrent|minItems|elastislide|start|onClick|removeClass|siblings|eq|src|onReady|demo4|li|changeImage|largeimg|attr|resize|demo4carousel|500|viewer|900|if|else|width|demo6|demo3|standard|follow|demo2carousel||followViewer|demo2carousel|standardViewer|625|offset|demo2|zoomSize|onHide|fadeIn|onShow|hide|demo5|demo1|fadeOut|show'.split('|'),0,{}))
+</script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/sticky-navigation.css" />
+<link href="css/demo.css" rel="stylesheet" type="text/css" />
+
+<script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		} else {
+			$('#sticky_navigation').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+</head>
+<body>
+	<!-- Header Part Starts Here -->
+<div class="header">
+	<div class="container">
+	<div id="demo_top_wrapper">
+	<div id="sticky_navigation_wrapper">
+		<div id="sticky_navigation">
+			<div class="demo_container navigation-bar">
+				<div class="navigation">
+					<div class="logo"><a href="index.html">Custom&nbsp;Fitness&nbsp;Equipment</a></div>
+					<span class="menu"></span>
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".navig" ).slideToggle( "slow", function() {
+						    // Animation complete.
+						  });
+						});
+					</script>
+					<div class="navig">
+						<ul>
+							<li><a href="Our-Work.html">View All</a></li>
+                            <li><a href="customs-by-theme.html">Customs by Theme</a></li>
+                           <li><a href="http://www.gymstore.com/custom">Customs For Sale</a></li>
+<li class="animated fadeInRight delay-03s"><a href="about.html">About</a></li>
+<li class="animated fadeInRight delay-03s"><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="navigation-right"> </div>
+				<div class="clearfix"></div>
+				<div class="serch">
+								
+				</div>
+				<script>
+					$( "button.search" ).click(function() {
+					  $( ".serch" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="main">
+	<div class="content">
+		<div class="pag-nav">
+			<ul class="p-list">
+				<li><a href="index.html">Home</a></li>&nbsp;&nbsp;/&nbsp;
+				<li><a href="indoor-cyling.html">Spin Bikes / Group Cycles</a></li>&nbsp;&nbsp;/&nbsp;
+				<li class="act">LeMond RevMaster</li>
+			</ul>
+		</div>
+		<div class="page" >
+        <h3>LeMond RevMaster Iron-Man</h3>
+			<!--demo2-->
+			<div class="box cf">
+				<div class="left">
+					<span class="demowrap"><img id="demo2" src="images/LeMond-RevMaster-Iron-Man1.jpg" alt="LeMond RevMaster"  /></span>
+					<ul id="demo2carousel" class="elastislide-list">
+						<li><a href="#"><img src="images/LeMond-RevMaster-Iron-Man1.jpg" data-largeimg="images/big/LeMond-RevMaster-Iron-Man1.jpg"   alt="LeMond RevMaster" /></a></li>
+						<li><a href="#"><img src="images/LeMond-RevMaster-Iron-Man2.jpg" data-largeimg="images/big/LeMond-RevMaster-Iron-Man2.jpg"  alt="LeMond RevMaster"  /></a></li>
+						<li><a href="#"><img src="images/LeMond-RevMaster-Iron-Man3.jpg" data-largeimg="images/big/LeMond-RevMaster-Iron-Man3.jpg"  alt="LeMond RevMaster"  /></a></li>
+                        <li><a href="#"><img src="images/LeMond-RevMaster-Iron-Man4.jpg" data-largeimg="images/big/LeMond-RevMaster-Iron-Man4.jpg"  alt="LeMond RevMaster"  /></a></li>
+                     
+					</ul>
+				</div>
+			</div>
+			<!--demo6-->
+			                                
+			<div class="clearfix" align="center">
+             <iframe class="iframe-product-sizing" src="https://www.youtube-nocookie.com/embed/I38rWZljkxs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+        </div>
+	
+    <div class="sap_tabs">	
+				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Product Details</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Product Specifications</span></li>
+                            
+							  
+							  <div class="clear"></div>
+						  </ul>				  	 
+							<div class="resp-tabs-container">
+							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="facts">
+									  <ul class="tab_list">
+									  	<p>Like something out of the Stark Industries Laboratory, the Iron Man Bike is built much like the super hero we all know so well.  The first ever brass coated bike we have ever offered makes all other bikes look like just plain dull.</p> <p>  The custom web design seat and pedals along with arc reactor side emblems finish the look.  Custom red racing road bike wrap style hand-grips add superior function to the fashion.</p>
+                                        <p> <strong>Option:</strong> Monitor +$160 </p>
+									  </ul>           
+							        </div>
+							     </div>	
+							      <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="facts">
+									  <ul class="tab_list">
+									    <table border="1" bordercolor="#000000" cellpadding="4" cellspacing="0" frame="BELOW" rules="ROWS" width="100%" >
+
+<tbody>
+<tr>
+	<td width="25%">
+		<p><strong>Product Dimensions</strong></p>
+	</td>
+	<td width="75%">
+		<p> 41.5 inch L x 22.25 inch W x 38inch H</p>
+	</td>
+</tr>
+<tr>
+	<td width="25%">
+		<p><strong>Product Weight</strong></p>
+	</td>
+	<td width="75%">
+		<p>116 Lbs</p>
+	</td>
+</tr>
+<tr>
+  <td width="25%">
+    <p><strong>User Weight Limit</strong></p>
+    </td>
+  <td width="75%">
+    <p>300 Lbs</p>
+    </td>
+</tr>
+
+<tr>
+  <td>
+
+  </td>
+</tr>
+<tr>
+	<td>
+		<strong><p>Warranty</p></strong>
+	</td>
+	<td>
+		<p>1 Year Parts / 30 Days Labor</p>
+	</td>
+</tr>
+</tbody>
+</table>
+									  </ul>           
+							        </div>
+							     </div>	
+							      
+					      </div>
+					 </div>
+                     <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					    <script type="text/javascript">
+						    $(document).ready(function () {
+						        $('#horizontalTab').easyResponsiveTabs({
+						            type: 'default', //Types: default, vertical, accordion           
+						            width: 'auto', //auto or any width like 600px
+						            fit: true   // 100% fit in a container
+						        });
+						    });
+						   </script>
+	
+		<!-- Partners Starts Here -->
+		
+		<!-- Partners Ends Here -->
+	<!-- Footer Menu Starts here -->
+		<div class="footer">
+			<div class="row footer-row">
+				<div class="col-md-4 footer-col">
+					<h3 class="ft-title">Products</h3>
+					<ul class="ft-list">
+						<li><a href="treadmill.html">Treadmills</a></li>
+						<li><a href="ellipticals-arc-trainers.html">Ellipticals / Arc Trainers </a></li>
+						<li><a href="steppers-stair-climbers.html">Steppers / Stair Climbers</a></li>
+						<li><a href="indoor-cyling.html">Spin Bikes / Group Cycles</a></li>
+                        <li><a href="Strength-Equipment.html">Strength Equipment</a></li>
+                        <li><a href="create-your-own.html">Create Your Own</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-col">
+					<h3 class="ft-title">site</h3>
+					<ul class="ft-list  list-h">
+						
+						<li><a href="Privacy-Policy.html">Privacy Policy </a></li>
+						<li><a href="Shipping.html">Shipping Info</a></li>
+                        
+					</ul>
+				</div>
+				<div class="col-md-4 footer-col">
+					<h3 class="ft-title">GS Customs</h3>
+					<ul class="ft-list list-h">
+						<li><a href="about.html">About us</a></li>
+						
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 foot-cl">
+					<h3 class="ft-title">social</h3>
+					<p></p>
+					<ul class="social">
+						<li><i class="fa"></i></li>
+						<li><i class="tw"></i></li>
+						<li><i class="is"></i></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- Footer Menu Ends here --->
+	</div>
+    </div>
+</section>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81385210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
