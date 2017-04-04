@@ -7,6 +7,22 @@ a[href="#top"] {
 	font-size: 14px;
 	color: #bdbdbd;
 }
+.action-button-div {
+	padding: 20px;
+}
+.action-button-div a {
+	color: white;
+	background: #6D1419;
+	border: none;
+	border-radius: 0px;
+}
+.action-button-div a:hover {
+	color: red;
+	/*border: 1px solid #6D1419;*/
+	background: #6D1419;
+	transition: 0.1s ease-in;
+} 
+
 .centered-cols {
 	margin: 0 auto;
 }
